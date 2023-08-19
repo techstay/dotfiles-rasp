@@ -29,8 +29,6 @@ sudo apt install docker.io docker-compose
 sudo gpasswd docker -a "$(whoami)"
 ```
 
-nala，从[项目网站](https://gitlab.com/volian/nala/-/releases)下载deb包，然后安装。
-
 克隆 dotfiles，然后将终端设置为 zsh`chsh -s /bin/zsh`。
 
 ```sh
