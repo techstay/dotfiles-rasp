@@ -32,7 +32,7 @@ sudo gpasswd docker -a "$(whoami)"
 克隆 dotfiles，然后将终端设置为 zsh`chsh -s /bin/zsh`。
 
 ```sh
-yadm clone https://github.com/techstay/dotfile-rasp.git
+yadm clone https://github.com/techstay/dotfiles-rasp.git
 ```
 
 bootstrap 脚本里目前没想好应该写点什么东西，以后应该会加一点安装脚本之类的。不过再想到那个网络问题，顿时有点头痛。哼哧哼哧写了半天，然后后面安装不上，那可太尴尬了。之前 cloudflare 的 warp 我觉得挺好用的，但是尝试安装之后发现，它不支持 arm 平台，实在是太可惜了。
