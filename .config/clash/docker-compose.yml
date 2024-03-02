@@ -1,10 +1,10 @@
 version: "3"
 services:
   clash:
-    image: dreamacro/clash-premium
-    container_name: clash
+    image: metacubex/mihomo
+    container_name: mihomo
     volumes:
-      - ./config.yaml:/root/.config/clash/config.yaml
+      - ./config.yaml:/root/.config/mihomo/config.yaml
       - ./ui:/ui # dashboard volume
     ports:
       - 7890:7890
